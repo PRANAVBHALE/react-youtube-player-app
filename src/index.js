@@ -28,7 +28,7 @@ class  App extends Component{
   }
 
   videoSearch(term){
-      YTSearch({key:Api_Key,term:term, limit: 20},(videos) => {
+      YTSearch({key:Api_Key,term:term, limit: 5},(videos) => {
         //console.log(data);
     //    this.setState({videos:videos})   //key:vidoes value:data this n below are same statements
         this.setState({
